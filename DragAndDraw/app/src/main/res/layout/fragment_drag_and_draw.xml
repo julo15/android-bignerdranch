@@ -1,0 +1,5 @@
+<com.bignerdranch.android.draganddraw.BoxDrawingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_draw_and_draw_box_drawing_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

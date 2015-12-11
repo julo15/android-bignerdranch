@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/list_item_activity_icon_image_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        tools:src="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/list_item_activity_name_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        tools:text="App name" />
+
+</LinearLayout>
